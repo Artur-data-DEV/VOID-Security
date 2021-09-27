@@ -1,0 +1,29 @@
+# Project: VS
+# Makefile created by Dev-C++ 5.2.0.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Interface.o $(RES)
+LINKOBJ  = Interface.o $(RES)
+LIBS     = -L"C:/Users/artur/Desktop/dev/Dev-Cpp/MinGW32/lib" -static-libstdc++ -static-libgcc -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 -lwinmm -lpthreadGC2  
+INCS     = -I"C:/Users/artur/Desktop/dev/Dev-Cpp/MinGW32/include" 
+CXXINCS  = -I"C:/Users/artur/Desktop/dev/Dev-Cpp/MinGW32/include" 
+BIN      = VS.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS   = $(INCS)  
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before VS.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "VS.exe" $(LIBS)
+
+Interface.o: Interface.cpp
+	$(CPP) -c Interface.cpp -o Interface.o $(CXXFLAGS)

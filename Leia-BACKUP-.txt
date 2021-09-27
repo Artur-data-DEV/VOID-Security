@@ -1,0 +1,28 @@
+Grupo: 3 - Esteganografia
+Lucas Seabra, Matheus Nobrega, Matheus Filipe, Artur Campos
+VS - Void Security é um programa de criptografia em imagem feito para proteger mensagens confidenciais que possam ser interceptadas.
+Como usar: 
+EXTREMAMENTE IMPORTANTE: EXTRAIA A PASTA DE DOWNLOAD (VoidSecurity) NA PASTA ‘C:’ DO SEU PC.
+Para esconder a mensagem:
+1 - Primeiro baixe a pasta do VS com os 3 programas do VS;
+2 - Escolha uma imagem do tipo ".bmp" para esconder a mensagem;
+Obs.: Para saber se a imagem é ".bmp" clique com o lado direito do mouse na imagem clique na palavra propriedades na lista que aparecer e confira se o nome da imagem termina com “.bmp”.
+3 - Copie e cole a imagem dentro da pasta ‘Opcoes’
+Obs.: Caso não copiar e colar clique com o botão esquerdo do mouse 1 vez em cima da imagem clique na “ctrl+c” abra a pasta ‘Imagens’ e aperte “ctrl+v”;
+4 - Clique duas vezes em "VS.exe" na pasta ‘Programa_Principal’;
+5 - Clique na opção "Esconder mensagem na imagem";
+6 – Escreva ou copie e cole o nome da imagem no programa e aperte "ENTER".
+Obs: Para copiar o nome da imagem clique com o botão direito do mouse e clique em renomear com o botão esquerdo do mouse, em seguida aperte "ctrl+c" e clique novamente na janela do programa com o botão esquerdo e aperte “ctrl+v”.
+7 - Digite um número de 0 a 2 após aparecem as mensagens de opção de escolha de cor e aperte “ENTER”;
+8 - Digite o tamanho de sua mensagem (número de letras);
+9 - Escreva a mensagem e aperte "ENTER";
+Obs: Ler todas as mensagens escritas na tela durante a execução pois elas irão servir de muito auxílio.
+Para tirar da imagem:
+Após realizar os passos de 1 ao 6, faça os seguintes passos:
+1 - Clique na opção "Retirar mensagem da imagem";
+2 - Escreva a cor onde a mensagem está escondida, sendo esta a mesma escolhida ao esconder na imagem (um número de 0 a 2);
+3 – Escreva ou copie e cole o nome da imagem no programa e aperte "ENTER".
+4 - Leia a mensagem.
+Manual Do Usuário - VS
+
+
